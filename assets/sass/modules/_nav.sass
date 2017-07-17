@@ -1,0 +1,18 @@
+.nav
+    display: flex
+    justify-content: space-around
+    padding: 10px 0
+    margin-bottom: 20px
+
+    background-color: rgb(213, 213, 213)
+
+    &--item
+        border: 1px solid #000
+        padding: 1em 0.5em
+
+        &.is-selected
+            color: #ff9230
+
+    &--search
+        @extend .nav--item
+
